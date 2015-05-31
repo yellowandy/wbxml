@@ -8,39 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		7902F9061B1ABCB50000946B /* wbxml_base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8E21B1ABCB50000946B /* wbxml_base64.c */; };
-		7902F9071B1ABCB50000946B /* wbxml_base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E31B1ABCB50000946B /* wbxml_base64.h */; };
+		7902F9071B1ABCB50000946B /* wbxml_base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E31B1ABCB50000946B /* wbxml_base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9081B1ABCB50000946B /* wbxml_buffers.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8E41B1ABCB50000946B /* wbxml_buffers.c */; };
-		7902F9091B1ABCB50000946B /* wbxml_buffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E51B1ABCB50000946B /* wbxml_buffers.h */; };
+		7902F9091B1ABCB50000946B /* wbxml_buffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E51B1ABCB50000946B /* wbxml_buffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F90A1B1ABCB50000946B /* wbxml_charset.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8E61B1ABCB50000946B /* wbxml_charset.c */; };
-		7902F90B1B1ABCB50000946B /* wbxml_charset.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E71B1ABCB50000946B /* wbxml_charset.h */; };
+		7902F90B1B1ABCB50000946B /* wbxml_charset.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E71B1ABCB50000946B /* wbxml_charset.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F90C1B1ABCB50000946B /* wbxml_conv.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8EA1B1ABCB50000946B /* wbxml_conv.c */; };
-		7902F90D1B1ABCB50000946B /* wbxml_conv.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8EB1B1ABCB50000946B /* wbxml_conv.h */; };
-		7902F90E1B1ABCB50000946B /* wbxml_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8EC1B1ABCB50000946B /* wbxml_defines.h */; };
+		7902F90D1B1ABCB50000946B /* wbxml_conv.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8EB1B1ABCB50000946B /* wbxml_conv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F90E1B1ABCB50000946B /* wbxml_defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8EC1B1ABCB50000946B /* wbxml_defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F90F1B1ABCB50000946B /* wbxml_elt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8ED1B1ABCB50000946B /* wbxml_elt.c */; };
-		7902F9101B1ABCB50000946B /* wbxml_elt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8EE1B1ABCB50000946B /* wbxml_elt.h */; };
+		7902F9101B1ABCB50000946B /* wbxml_elt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8EE1B1ABCB50000946B /* wbxml_elt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9111B1ABCB50000946B /* wbxml_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8EF1B1ABCB50000946B /* wbxml_encoder.c */; };
-		7902F9121B1ABCB50000946B /* wbxml_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F01B1ABCB50000946B /* wbxml_encoder.h */; };
+		7902F9121B1ABCB50000946B /* wbxml_encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F01B1ABCB50000946B /* wbxml_encoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9131B1ABCB50000946B /* wbxml_errors.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8F11B1ABCB50000946B /* wbxml_errors.c */; };
-		7902F9141B1ABCB50000946B /* wbxml_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F21B1ABCB50000946B /* wbxml_errors.h */; };
-		7902F9151B1ABCB50000946B /* wbxml_handlers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F31B1ABCB50000946B /* wbxml_handlers.h */; };
-		7902F9161B1ABCB50000946B /* wbxml_internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F41B1ABCB50000946B /* wbxml_internals.h */; };
+		7902F9141B1ABCB50000946B /* wbxml_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F21B1ABCB50000946B /* wbxml_errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F9151B1ABCB50000946B /* wbxml_handlers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F31B1ABCB50000946B /* wbxml_handlers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F9161B1ABCB50000946B /* wbxml_internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F41B1ABCB50000946B /* wbxml_internals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9171B1ABCB50000946B /* wbxml_lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8F51B1ABCB50000946B /* wbxml_lists.c */; };
-		7902F9181B1ABCB50000946B /* wbxml_lists.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F61B1ABCB50000946B /* wbxml_lists.h */; };
+		7902F9181B1ABCB50000946B /* wbxml_lists.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F61B1ABCB50000946B /* wbxml_lists.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9191B1ABCB50000946B /* wbxml_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8F71B1ABCB50000946B /* wbxml_log.c */; };
-		7902F91A1B1ABCB50000946B /* wbxml_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F81B1ABCB50000946B /* wbxml_log.h */; };
+		7902F91A1B1ABCB50000946B /* wbxml_log.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8F81B1ABCB50000946B /* wbxml_log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F91B1B1ABCB50000946B /* wbxml_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8F91B1ABCB50000946B /* wbxml_mem.c */; };
-		7902F91C1B1ABCB50000946B /* wbxml_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8FA1B1ABCB50000946B /* wbxml_mem.h */; };
+		7902F91C1B1ABCB50000946B /* wbxml_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8FA1B1ABCB50000946B /* wbxml_mem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F91D1B1ABCB50000946B /* wbxml_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8FB1B1ABCB50000946B /* wbxml_parser.c */; };
-		7902F91E1B1ABCB50000946B /* wbxml_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8FC1B1ABCB50000946B /* wbxml_parser.h */; };
+		7902F91E1B1ABCB50000946B /* wbxml_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8FC1B1ABCB50000946B /* wbxml_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F91F1B1ABCB50000946B /* wbxml_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8FD1B1ABCB50000946B /* wbxml_tables.c */; };
-		7902F9201B1ABCB50000946B /* wbxml_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8FE1B1ABCB50000946B /* wbxml_tables.h */; };
+		7902F9201B1ABCB50000946B /* wbxml_tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8FE1B1ABCB50000946B /* wbxml_tables.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9211B1ABCB50000946B /* wbxml_tree_clb_wbxml.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F8FF1B1ABCB50000946B /* wbxml_tree_clb_wbxml.c */; };
-		7902F9221B1ABCB50000946B /* wbxml_tree_clb_wbxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9001B1ABCB50000946B /* wbxml_tree_clb_wbxml.h */; };
+		7902F9221B1ABCB50000946B /* wbxml_tree_clb_wbxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9001B1ABCB50000946B /* wbxml_tree_clb_wbxml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9231B1ABCB50000946B /* wbxml_tree_clb_xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F9011B1ABCB50000946B /* wbxml_tree_clb_xml.c */; };
-		7902F9241B1ABCB50000946B /* wbxml_tree_clb_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9021B1ABCB50000946B /* wbxml_tree_clb_xml.h */; };
+		7902F9241B1ABCB50000946B /* wbxml_tree_clb_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9021B1ABCB50000946B /* wbxml_tree_clb_xml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7902F9251B1ABCB50000946B /* wbxml_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7902F9031B1ABCB50000946B /* wbxml_tree.c */; };
-		7902F9261B1ABCB50000946B /* wbxml_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9041B1ABCB50000946B /* wbxml_tree.h */; };
-		7902F9271B1ABCB50000946B /* wbxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9051B1ABCB50000946B /* wbxml.h */; };
+		7902F9261B1ABCB50000946B /* wbxml_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9041B1ABCB50000946B /* wbxml_tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F9271B1ABCB50000946B /* wbxml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F9051B1ABCB50000946B /* wbxml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F9381B1AC7F80000946B /* wbxml_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E91B1ABCB50000946B /* wbxml_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F9391B1AC7FA0000946B /* wbxml_config_internals.h in Headers */ = {isa = PBXBuildFile; fileRef = 7902F8E81B1ABCB50000946B /* wbxml_config_internals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7902F93C1B1ACD690000946B /* libexpat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7902F93B1B1ACD690000946B /* libexpat.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +85,7 @@
 		7902F9031B1ABCB50000946B /* wbxml_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wbxml_tree.c; sourceTree = "<group>"; };
 		7902F9041B1ABCB50000946B /* wbxml_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbxml_tree.h; sourceTree = "<group>"; };
 		7902F9051B1ABCB50000946B /* wbxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wbxml.h; sourceTree = "<group>"; };
+		7902F93B1B1ACD690000946B /* libexpat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexpat.dylib; path = usr/lib/libexpat.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7902F93C1B1ACD690000946B /* libexpat.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +103,7 @@
 		7902F8CA1B1ABCA60000946B = {
 			isa = PBXGroup;
 			children = (
+				7902F93B1B1ACD690000946B /* libexpat.dylib */,
 				7902F8D51B1ABCA60000946B /* wbxml */,
 				7902F8D41B1ABCA60000946B /* Products */,
 			);
@@ -170,6 +176,8 @@
 				7902F9201B1ABCB50000946B /* wbxml_tables.h in Headers */,
 				7902F91A1B1ABCB50000946B /* wbxml_log.h in Headers */,
 				7902F9161B1ABCB50000946B /* wbxml_internals.h in Headers */,
+				7902F9381B1AC7F80000946B /* wbxml_config.h in Headers */,
+				7902F9391B1AC7FA0000946B /* wbxml_config_internals.h in Headers */,
 				7902F9101B1ABCB50000946B /* wbxml_elt.h in Headers */,
 				7902F9181B1ABCB50000946B /* wbxml_lists.h in Headers */,
 				7902F90E1B1ABCB50000946B /* wbxml_defines.h in Headers */,
@@ -346,6 +354,8 @@
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/wbxml;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -357,6 +367,8 @@
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/wbxml;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -379,6 +391,7 @@
 				7902F8E01B1ABCA60000946B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
